@@ -30,8 +30,8 @@
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
     },
     "LICENSES/CC-BY-4.0.txt": {
-      "bytes": 18657,
-      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
     },
     "LICENSES/JobShopLib-MIT.txt": {
       "bytes": 1069,
@@ -246,8 +246,8 @@
       "sha256": "da1ae9e75e61fc38b3b5cfc78c8d09955436a3a1e6bcb390e7f84912dd46762b"
     },
     "enumeration.py": {
-      "bytes": 4008,
-      "sha256": "d67b1376a83abf7029d298241c6223499fb1a348dbf816f0bf06933f5bfe57bc"
+      "bytes": 4007,
+      "sha256": "81b353b0cbe1180f5473382110af6792b977607c0c0a0c299e3da070076e4057"
     },
     "evidence/EVENT-MANIFEST.json": {
       "bytes": 30164,

@@ -71,4 +71,3 @@ def frontier(request, total_seconds=1800, recorder=None, guard=None):
         complete, reason = True, 'nonnegative_change_count_exhausted'
     points.sort(key=lambda p:p['R'])
     return {'event_id':request.get('event_id'),'complete':complete,'completeness_scope':'primary CP-SAT formulation','reason':reason,'full_K':full,'requested_K_cap':initial_cap,'cp_sat_frontier_points':points,'confirmed_optimal_K_ranges':ranges,'confirmed_infeasible_K_range':[0,cap] if complete and cap>=0 else None,'unresolved_K_range':None if complete else [0,cap],'unconfirmed_candidates_not_frontier':candidates,'trials':trials,'elapsed_seconds':time.monotonic()-started}
-
