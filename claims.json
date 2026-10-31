@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "artifact": "job-shop-repair-frontier",
+  "version": "1.0.0",
+  "kind": "software-and-data",
+  "lean": {"level": "L0", "reason": "Executable software and finite integer schedule checks; no Lean formalization."},
+  "claims": [
+    {"id": "k-bounded-repair", "statement": "Returned repair schedules satisfy the fixed-machine integer contract and R <= input K.", "evidence": ["checker.py", "integer_core.py", "tests/test_repair.py"]},
+    {"id": "recorded-frontiers", "statement": "The recorded primary CP-SAT model completed 20 event frontiers containing 153 points.", "scope": "Solver judgments under the stated finite model; all schedules and reported R/M pass integer checks.", "evidence": ["data/frontiers/", "evidence/primary/", "verify_data.py"]},
+    {"id": "additional-optimality-checks", "statement": "HiGHS MILP reproduced all four ft06 frontiers (10 points) and ruled out domination for 14 selected ft10/abz5 points.", "scope": "24 points; numerical MILP judgments, not exact proof certificates. Complete independent enumeration covers ft06 only.", "evidence": ["evidence/highs/FRONTIER-REPLAY.json", "evidence/highs/POINT-CERTIFICATES.json", "evidence/highs/MODEL-WITNESS-CHECKS.json"]},
+    {"id": "primary-only-points", "statement": "The other 129 points have integer feasibility checks but no additional HiGHS optimality check.", "evidence": ["data/frontiers/", "verify_data.py"]},
+    {"id": "reviewed-tool-observation", "statement": "As of 2026-10-31, no free repair tool returning an R/M frontier with hard K was found within the reviewed tools/APIs listed in README.md.", "scope": "OR-Tools 9.15.6755, JobShopLib 1.7.2 and PyJobShop 0.0.9 as described in README.md; bounded observation only."}
+  ],
+  "excluded": ["A new scheduling algorithm", "Speed superiority", "Performance on real equipment or real logs", "Preemption of running operations", "Machine reassignment", "Uncertain recovery times", "Independent optimality verification for all 153 points"],
+  "review": {"human_peer_review": false, "historical_checks": "AI-assisted separate implementations and solvers with the recorded scope; package assembly is not a new independent scientific review."}
+}

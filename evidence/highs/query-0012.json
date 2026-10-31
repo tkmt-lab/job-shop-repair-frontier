@@ -1,0 +1,166 @@
+{
+  "query": 12,
+  "event": "ft06-q50-d1",
+  "objective": "M",
+  "Rcap": 5,
+  "Mcap": null,
+  "status": "Optimal",
+  "wall_seconds": 0.024802665982861072,
+  "cpu_seconds": 0.02450899999999996,
+  "total_cpu": 0.19777199999999984,
+  "dual_bound": 62.0,
+  "gap": 0.0,
+  "nodes": 0,
+  "schedule": {
+    "j0o0": {
+      "machine": 2,
+      "start": 0
+    },
+    "j0o1": {
+      "machine": 0,
+      "start": 1
+    },
+    "j0o2": {
+      "machine": 1,
+      "start": 16
+    },
+    "j0o3": {
+      "machine": 3,
+      "start": 30
+    },
+    "j0o4": {
+      "machine": 5,
+      "start": 42
+    },
+    "j0o5": {
+      "machine": 4,
+      "start": 49
+    },
+    "j1o0": {
+      "machine": 1,
+      "start": 0
+    },
+    "j1o1": {
+      "machine": 2,
+      "start": 8
+    },
+    "j1o2": {
+      "machine": 4,
+      "start": 13
+    },
+    "j1o3": {
+      "machine": 5,
+      "start": 28
+    },
+    "j1o4": {
+      "machine": 0,
+      "start": 38
+    },
+    "j1o5": {
+      "machine": 3,
+      "start": 54
+    },
+    "j2o0": {
+      "machine": 2,
+      "start": 1
+    },
+    "j2o1": {
+      "machine": 3,
+      "start": 6
+    },
+    "j2o2": {
+      "machine": 5,
+      "start": 10
+    },
+    "j2o3": {
+      "machine": 0,
+      "start": 18
+    },
+    "j2o4": {
+      "machine": 1,
+      "start": 27
+    },
+    "j2o5": {
+      "machine": 4,
+      "start": 55
+    },
+    "j3o0": {
+      "machine": 1,
+      "start": 8
+    },
+    "j3o1": {
+      "machine": 0,
+      "start": 13
+    },
+    "j3o2": {
+      "machine": 2,
+      "start": 22
+    },
+    "j3o3": {
+      "machine": 3,
+      "start": 27
+    },
+    "j3o4": {
+      "machine": 4,
+      "start": 36
+    },
+    "j3o5": {
+      "machine": 5,
+      "start": 45
+    },
+    "j4o0": {
+      "machine": 2,
+      "start": 13
+    },
+    "j4o1": {
+      "machine": 1,
+      "start": 28
+    },
+    "j4o2": {
+      "machine": 4,
+      "start": 31
+    },
+    "j4o3": {
+      "machine": 5,
+      "start": 38
+    },
+    "j4o4": {
+      "machine": 0,
+      "start": 48
+    },
+    "j4o5": {
+      "machine": 3,
+      "start": 52
+    },
+    "j5o0": {
+      "machine": 1,
+      "start": 13
+    },
+    "j5o1": {
+      "machine": 3,
+      "start": 16
+    },
+    "j5o2": {
+      "machine": 5,
+      "start": 19
+    },
+    "j5o3": {
+      "machine": 0,
+      "start": 28
+    },
+    "j5o4": {
+      "machine": 4,
+      "start": 45
+    },
+    "j5o5": {
+      "machine": 2,
+      "start": 49
+    }
+  },
+  "integer_check": {
+    "errors": [],
+    "R": 5,
+    "M": 62
+  },
+  "max_integer_rounding": 1.0658141036401503e-13
+}

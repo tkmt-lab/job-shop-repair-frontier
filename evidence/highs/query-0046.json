@@ -1,0 +1,14 @@
+{
+  "query": 46,
+  "event": "abz5-q75-d1",
+  "objective": "feasible",
+  "Rcap": 4,
+  "Mcap": 1347,
+  "status": "Infeasible",
+  "wall_seconds": 0.0010640000109560788,
+  "cpu_seconds": 0.0010509999999999547,
+  "total_cpu": 0.23506199999999966,
+  "dual_bound": -Infinity,
+  "gap": Infinity,
+  "nodes": 0
+}

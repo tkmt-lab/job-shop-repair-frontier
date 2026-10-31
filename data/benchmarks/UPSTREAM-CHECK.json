@@ -1,0 +1,10 @@
+{
+  "benchmark_json_sha256": "17d12fcb317057188a00deab413b2b321b0ab2d9b2526ae8c9676e33b6b4d0a4",
+  "benchmark_member": "job_shop_lib/benchmarking/benchmark_instances.json",
+  "matrix_matches": [
+    "ft06",
+    "ft10",
+    "abz5"
+  ],
+  "wheel_sha256": "7bbd8df63bbab2907181c34b258ea474c0be887cece578c1cedf253366c4cc53"
+}

@@ -1,0 +1,14 @@
+Copyright 2026 Tatsuhiko Takimoto.
+
+Code (*.py), requirements.txt, CI and configuration: Apache License 2.0.
+Full text: LICENSES/Apache-2.0.txt.
+
+Original schedule/event/result data, prose and publication metadata:
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+Full text: LICENSES/CC-BY-4.0.txt.
+
+Exception: JobShopLib-derived benchmark matrices and original metadata in
+data/benchmarks/, and the corresponding matrices embedded in data/events/,
+retain the MIT terms and notice in LICENSES/JobShopLib-MIT.txt.
+Those MIT terms are not replaced by the CC BY 4.0 license.
+Referenced works and separately installed dependencies retain their own terms.

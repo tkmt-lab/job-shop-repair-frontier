@@ -1,0 +1,88 @@
+[
+  {
+    "event": "ft06-q25-d1",
+    "infeasible_R": [
+      0,
+      2
+    ],
+    "optimal_ranges": [
+      {
+        "R_from": 3,
+        "R_to": 5,
+        "M": 62
+      },
+      {
+        "R_from": 6,
+        "R_to": 28,
+        "M": 58
+      }
+    ]
+  },
+  {
+    "event": "ft06-q50-d1",
+    "infeasible_R": [
+      0,
+      2
+    ],
+    "optimal_ranges": [
+      {
+        "R_from": 3,
+        "R_to": 5,
+        "M": 62
+      },
+      {
+        "R_from": 6,
+        "R_to": 6,
+        "M": 61
+      },
+      {
+        "R_from": 7,
+        "R_to": 9,
+        "M": 60
+      },
+      {
+        "R_from": 10,
+        "R_to": 20,
+        "M": 58
+      }
+    ]
+  },
+  {
+    "event": "ft06-q75-d1",
+    "infeasible_R": [
+      0,
+      1
+    ],
+    "optimal_ranges": [
+      {
+        "R_from": 2,
+        "R_to": 2,
+        "M": 65
+      },
+      {
+        "R_from": 3,
+        "R_to": 3,
+        "M": 60
+      },
+      {
+        "R_from": 4,
+        "R_to": 10,
+        "M": 58
+      }
+    ]
+  },
+  {
+    "event": "ft06-q90-d1",
+    "infeasible_R": [
+      0,
+      1
+    ],
+    "optimal_ranges": [
+      {
+        "R_from": 2,
+        "R_to": 5,
+        "M": 58
+      }
+    ]
+  }
+]

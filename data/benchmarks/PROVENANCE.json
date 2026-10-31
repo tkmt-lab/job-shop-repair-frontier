@@ -1,0 +1,12 @@
+{
+  "package": "JobShopLib 1.7.2",
+  "url": "https://files.pythonhosted.org/packages/93/49/42d69efc50ea28e8f13caebca5b8f0c59e24d7fdf4b7697be28eae6ad15c/job_shop_lib-1.7.2-py3-none-any.whl",
+  "sha256": "7bbd8df63bbab2907181c34b258ea474c0be887cece578c1cedf253366c4cc53",
+  "benchmark_json_sha256": "17d12fcb317057188a00deab413b2b321b0ab2d9b2526ae8c9676e33b6b4d0a4",
+  "license": "MIT; see LICENSES/JobShopLib-MIT.txt (from repository root)",
+  "selected": [
+    "ft06",
+    "ft10",
+    "abz5"
+  ]
+}

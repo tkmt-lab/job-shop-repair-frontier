@@ -1,0 +1,1772 @@
+{
+  "complete": true,
+  "complete_independently_checked": true,
+  "completeness_scope": "primary CP-SAT formulation",
+  "confirmed_infeasible_K_range": [
+    0,
+    1
+  ],
+  "confirmed_optimal_K_ranges": [
+    {
+      "K_from": 4,
+      "K_to": 10,
+      "evidence": "primary_CP_SAT_OPTIMAL",
+      "minimum_makespan": 58
+    },
+    {
+      "K_from": 3,
+      "K_to": 3,
+      "evidence": "primary_CP_SAT_OPTIMAL",
+      "minimum_makespan": 60
+    },
+    {
+      "K_from": 2,
+      "K_to": 2,
+      "evidence": "primary_CP_SAT_OPTIMAL",
+      "minimum_makespan": 65
+    }
+  ],
+  "cp_sat_frontier_points": [
+    {
+      "R": 2,
+      "makespan": 65,
+      "query_indices": [
+        4,
+        5
+      ],
+      "schedule": {
+        "j0o0": {
+          "machine": 2,
+          "start": 0
+        },
+        "j0o1": {
+          "machine": 0,
+          "start": 1
+        },
+        "j0o2": {
+          "machine": 1,
+          "start": 16
+        },
+        "j0o3": {
+          "machine": 3,
+          "start": 30
+        },
+        "j0o4": {
+          "machine": 5,
+          "start": 42
+        },
+        "j0o5": {
+          "machine": 4,
+          "start": 49
+        },
+        "j1o0": {
+          "machine": 1,
+          "start": 0
+        },
+        "j1o1": {
+          "machine": 2,
+          "start": 8
+        },
+        "j1o2": {
+          "machine": 4,
+          "start": 13
+        },
+        "j1o3": {
+          "machine": 5,
+          "start": 28
+        },
+        "j1o4": {
+          "machine": 0,
+          "start": 51
+        },
+        "j1o5": {
+          "machine": 3,
+          "start": 61
+        },
+        "j2o0": {
+          "machine": 2,
+          "start": 1
+        },
+        "j2o1": {
+          "machine": 3,
+          "start": 6
+        },
+        "j2o2": {
+          "machine": 5,
+          "start": 10
+        },
+        "j2o3": {
+          "machine": 0,
+          "start": 18
+        },
+        "j2o4": {
+          "machine": 1,
+          "start": 27
+        },
+        "j2o5": {
+          "machine": 4,
+          "start": 30
+        },
+        "j3o0": {
+          "machine": 1,
+          "start": 8
+        },
+        "j3o1": {
+          "machine": 0,
+          "start": 13
+        },
+        "j3o2": {
+          "machine": 2,
+          "start": 22
+        },
+        "j3o3": {
+          "machine": 3,
+          "start": 27
+        },
+        "j3o4": {
+          "machine": 4,
+          "start": 37
+        },
+        "j3o5": {
+          "machine": 5,
+          "start": 45
+        },
+        "j4o0": {
+          "machine": 2,
+          "start": 13
+        },
+        "j4o1": {
+          "machine": 1,
+          "start": 22
+        },
+        "j4o2": {
+          "machine": 4,
+          "start": 25
+        },
+        "j4o3": {
+          "machine": 5,
+          "start": 38
+        },
+        "j4o4": {
+          "machine": 0,
+          "start": 48
+        },
+        "j4o5": {
+          "machine": 3,
+          "start": 52
+        },
+        "j5o0": {
+          "machine": 1,
+          "start": 13
+        },
+        "j5o1": {
+          "machine": 3,
+          "start": 16
+        },
+        "j5o2": {
+          "machine": 5,
+          "start": 19
+        },
+        "j5o3": {
+          "machine": 0,
+          "start": 28
+        },
+        "j5o4": {
+          "machine": 4,
+          "start": 45
+        },
+        "j5o5": {
+          "machine": 2,
+          "start": 49
+        }
+      },
+      "searched_K_cap": 2,
+      "status": "CP_SAT_OPTIMAL",
+      "verification": "checked_with_time_indexed_formulation"
+    },
+    {
+      "R": 3,
+      "makespan": 60,
+      "query_indices": [
+        2,
+        3
+      ],
+      "schedule": {
+        "j0o0": {
+          "machine": 2,
+          "start": 0
+        },
+        "j0o1": {
+          "machine": 0,
+          "start": 1
+        },
+        "j0o2": {
+          "machine": 1,
+          "start": 16
+        },
+        "j0o3": {
+          "machine": 3,
+          "start": 30
+        },
+        "j0o4": {
+          "machine": 5,
+          "start": 42
+        },
+        "j0o5": {
+          "machine": 4,
+          "start": 49
+        },
+        "j1o0": {
+          "machine": 1,
+          "start": 0
+        },
+        "j1o1": {
+          "machine": 2,
+          "start": 8
+        },
+        "j1o2": {
+          "machine": 4,
+          "start": 13
+        },
+        "j1o3": {
+          "machine": 5,
+          "start": 28
+        },
+        "j1o4": {
+          "machine": 0,
+          "start": 46
+        },
+        "j1o5": {
+          "machine": 3,
+          "start": 56
+        },
+        "j2o0": {
+          "machine": 2,
+          "start": 1
+        },
+        "j2o1": {
+          "machine": 3,
+          "start": 6
+        },
+        "j2o2": {
+          "machine": 5,
+          "start": 10
+        },
+        "j2o3": {
+          "machine": 0,
+          "start": 18
+        },
+        "j2o4": {
+          "machine": 1,
+          "start": 27
+        },
+        "j2o5": {
+          "machine": 4,
+          "start": 30
+        },
+        "j3o0": {
+          "machine": 1,
+          "start": 8
+        },
+        "j3o1": {
+          "machine": 0,
+          "start": 13
+        },
+        "j3o2": {
+          "machine": 2,
+          "start": 22
+        },
+        "j3o3": {
+          "machine": 3,
+          "start": 27
+        },
+        "j3o4": {
+          "machine": 4,
+          "start": 37
+        },
+        "j3o5": {
+          "machine": 5,
+          "start": 45
+        },
+        "j4o0": {
+          "machine": 2,
+          "start": 13
+        },
+        "j4o1": {
+          "machine": 1,
+          "start": 22
+        },
+        "j4o2": {
+          "machine": 4,
+          "start": 25
+        },
+        "j4o3": {
+          "machine": 5,
+          "start": 38
+        },
+        "j4o4": {
+          "machine": 0,
+          "start": 43
+        },
+        "j4o5": {
+          "machine": 3,
+          "start": 52
+        },
+        "j5o0": {
+          "machine": 1,
+          "start": 13
+        },
+        "j5o1": {
+          "machine": 3,
+          "start": 16
+        },
+        "j5o2": {
+          "machine": 5,
+          "start": 19
+        },
+        "j5o3": {
+          "machine": 0,
+          "start": 28
+        },
+        "j5o4": {
+          "machine": 4,
+          "start": 45
+        },
+        "j5o5": {
+          "machine": 2,
+          "start": 49
+        }
+      },
+      "searched_K_cap": 3,
+      "status": "CP_SAT_OPTIMAL",
+      "verification": "checked_with_time_indexed_formulation"
+    },
+    {
+      "R": 4,
+      "makespan": 58,
+      "query_indices": [
+        0,
+        1
+      ],
+      "schedule": {
+        "j0o0": {
+          "machine": 2,
+          "start": 0
+        },
+        "j0o1": {
+          "machine": 0,
+          "start": 1
+        },
+        "j0o2": {
+          "machine": 1,
+          "start": 16
+        },
+        "j0o3": {
+          "machine": 3,
+          "start": 30
+        },
+        "j0o4": {
+          "machine": 5,
+          "start": 42
+        },
+        "j0o5": {
+          "machine": 4,
+          "start": 49
+        },
+        "j1o0": {
+          "machine": 1,
+          "start": 0
+        },
+        "j1o1": {
+          "machine": 2,
+          "start": 8
+        },
+        "j1o2": {
+          "machine": 4,
+          "start": 13
+        },
+        "j1o3": {
+          "machine": 5,
+          "start": 28
+        },
+        "j1o4": {
+          "machine": 0,
+          "start": 43
+        },
+        "j1o5": {
+          "machine": 3,
+          "start": 53
+        },
+        "j2o0": {
+          "machine": 2,
+          "start": 1
+        },
+        "j2o1": {
+          "machine": 3,
+          "start": 6
+        },
+        "j2o2": {
+          "machine": 5,
+          "start": 10
+        },
+        "j2o3": {
+          "machine": 0,
+          "start": 18
+        },
+        "j2o4": {
+          "machine": 1,
+          "start": 27
+        },
+        "j2o5": {
+          "machine": 4,
+          "start": 30
+        },
+        "j3o0": {
+          "machine": 1,
+          "start": 8
+        },
+        "j3o1": {
+          "machine": 0,
+          "start": 13
+        },
+        "j3o2": {
+          "machine": 2,
+          "start": 22
+        },
+        "j3o3": {
+          "machine": 3,
+          "start": 27
+        },
+        "j3o4": {
+          "machine": 4,
+          "start": 37
+        },
+        "j3o5": {
+          "machine": 5,
+          "start": 45
+        },
+        "j4o0": {
+          "machine": 2,
+          "start": 13
+        },
+        "j4o1": {
+          "machine": 1,
+          "start": 22
+        },
+        "j4o2": {
+          "machine": 4,
+          "start": 25
+        },
+        "j4o3": {
+          "machine": 5,
+          "start": 38
+        },
+        "j4o4": {
+          "machine": 0,
+          "start": 53
+        },
+        "j4o5": {
+          "machine": 3,
+          "start": 57
+        },
+        "j5o0": {
+          "machine": 1,
+          "start": 13
+        },
+        "j5o1": {
+          "machine": 3,
+          "start": 16
+        },
+        "j5o2": {
+          "machine": 5,
+          "start": 19
+        },
+        "j5o3": {
+          "machine": 0,
+          "start": 28
+        },
+        "j5o4": {
+          "machine": 4,
+          "start": 45
+        },
+        "j5o5": {
+          "machine": 2,
+          "start": 49
+        }
+      },
+      "searched_K_cap": 10,
+      "status": "CP_SAT_OPTIMAL",
+      "verification": "checked_with_time_indexed_formulation"
+    }
+  ],
+  "elapsed_seconds": 6.183034583053086,
+  "event_id": "ft06-q75-d1",
+  "full_K": 10,
+  "independent_infeasible_tail": {
+    "K": 1,
+    "artifact": "queries/ft06-q75-d1/independent-tail.json",
+    "confirmed": true,
+    "status": "INFEASIBLE"
+  },
+  "independent_point_checks": [
+    {
+      "R": 2,
+      "confirmed": true,
+      "makespan": 65,
+      "queries": [
+        {
+          "K": 2,
+          "actual": 65,
+          "artifact": "queries/ft06-q75-d1/independent-000-makespan.json",
+          "confirmed": true,
+          "expected": 65,
+          "objective": "makespan",
+          "status": "OPTIMAL"
+        },
+        {
+          "K": 10,
+          "actual": 2,
+          "artifact": "queries/ft06-q75-d1/independent-000-changes.json",
+          "confirmed": true,
+          "expected": 2,
+          "objective": "changes",
+          "status": "OPTIMAL"
+        }
+      ]
+    },
+    {
+      "R": 3,
+      "confirmed": true,
+      "makespan": 60,
+      "queries": [
+        {
+          "K": 3,
+          "actual": 60,
+          "artifact": "queries/ft06-q75-d1/independent-001-makespan.json",
+          "confirmed": true,
+          "expected": 60,
+          "objective": "makespan",
+          "status": "OPTIMAL"
+        },
+        {
+          "K": 10,
+          "actual": 3,
+          "artifact": "queries/ft06-q75-d1/independent-001-changes.json",
+          "confirmed": true,
+          "expected": 3,
+          "objective": "changes",
+          "status": "OPTIMAL"
+        }
+      ]
+    },
+    {
+      "R": 4,
+      "confirmed": true,
+      "makespan": 58,
+      "queries": [
+        {
+          "K": 10,
+          "actual": 58,
+          "artifact": "queries/ft06-q75-d1/independent-002-makespan.json",
+          "confirmed": true,
+          "expected": 58,
+          "objective": "makespan",
+          "status": "OPTIMAL"
+        },
+        {
+          "K": 10,
+          "actual": 4,
+          "artifact": "queries/ft06-q75-d1/independent-002-changes.json",
+          "confirmed": true,
+          "expected": 4,
+          "objective": "changes",
+          "status": "OPTIMAL"
+        }
+      ]
+    }
+  ],
+  "reason": "no_feasible_point_below_previous",
+  "trials": [
+    {
+      "K": 10,
+      "artifact": "queries/ft06-q75-d1/primary-000-makespan.json",
+      "index": 0,
+      "makespan_cap": null,
+      "objective": "makespan",
+      "result": {
+        "K": 10,
+        "check": {
+          "R": 5,
+          "changed_ids": [
+            "j1o4",
+            "j1o5",
+            "j4o4",
+            "j4o5",
+            "j5o5"
+          ],
+          "errors": [],
+          "makespan": 58,
+          "valid": true
+        },
+        "child_cpu_seconds": 1.0887690000000028,
+        "detail": {
+          "best_bound": 58.0,
+          "branches": 13,
+          "conflicts": 0,
+          "hint": true,
+          "horizon": 252,
+          "model_R": 5,
+          "model_makespan": 58,
+          "objective": 58.0,
+          "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 58\nbest_bound: 58\nintegers: 11\nbooleans: 13\nconflicts: 0\nbranches: 13\npropagations: 0\ninteger_propagations: 16\nrestarts: 0\nlp_iterations: 0\nwalltime: 0.002922\nusertime: 0.002922\ndeterministic_time: 3.1499e-05\ngap_integral: 0\nsolution_fingerprint: 0xee63bbeb7ba3ead5\n",
+          "solver_status": "OPTIMAL",
+          "solver_wall_seconds": 0.002922,
+          "status": "OPTIMAL",
+          "worker_cpu_seconds": 0.808993,
+          "worker_peak_rss_bytes": 122798080
+        },
+        "elapsed_seconds": 0.8513629590161145,
+        "formulation": "primary",
+        "makespan_cap": null,
+        "objective_kind": "makespan",
+        "sampled_combined_rss_bytes": 119029760,
+        "schedule": {
+          "j0o0": {
+            "machine": 2,
+            "start": 0
+          },
+          "j0o1": {
+            "machine": 0,
+            "start": 1
+          },
+          "j0o2": {
+            "machine": 1,
+            "start": 16
+          },
+          "j0o3": {
+            "machine": 3,
+            "start": 30
+          },
+          "j0o4": {
+            "machine": 5,
+            "start": 42
+          },
+          "j0o5": {
+            "machine": 4,
+            "start": 49
+          },
+          "j1o0": {
+            "machine": 1,
+            "start": 0
+          },
+          "j1o1": {
+            "machine": 2,
+            "start": 8
+          },
+          "j1o2": {
+            "machine": 4,
+            "start": 13
+          },
+          "j1o3": {
+            "machine": 5,
+            "start": 28
+          },
+          "j1o4": {
+            "machine": 0,
+            "start": 43
+          },
+          "j1o5": {
+            "machine": 3,
+            "start": 53
+          },
+          "j2o0": {
+            "machine": 2,
+            "start": 1
+          },
+          "j2o1": {
+            "machine": 3,
+            "start": 6
+          },
+          "j2o2": {
+            "machine": 5,
+            "start": 10
+          },
+          "j2o3": {
+            "machine": 0,
+            "start": 18
+          },
+          "j2o4": {
+            "machine": 1,
+            "start": 27
+          },
+          "j2o5": {
+            "machine": 4,
+            "start": 30
+          },
+          "j3o0": {
+            "machine": 1,
+            "start": 8
+          },
+          "j3o1": {
+            "machine": 0,
+            "start": 13
+          },
+          "j3o2": {
+            "machine": 2,
+            "start": 22
+          },
+          "j3o3": {
+            "machine": 3,
+            "start": 27
+          },
+          "j3o4": {
+            "machine": 4,
+            "start": 37
+          },
+          "j3o5": {
+            "machine": 5,
+            "start": 45
+          },
+          "j4o0": {
+            "machine": 2,
+            "start": 13
+          },
+          "j4o1": {
+            "machine": 1,
+            "start": 22
+          },
+          "j4o2": {
+            "machine": 4,
+            "start": 25
+          },
+          "j4o3": {
+            "machine": 5,
+            "start": 38
+          },
+          "j4o4": {
+            "machine": 0,
+            "start": 53
+          },
+          "j4o5": {
+            "machine": 3,
+            "start": 57
+          },
+          "j5o0": {
+            "machine": 1,
+            "start": 13
+          },
+          "j5o1": {
+            "machine": 3,
+            "start": 16
+          },
+          "j5o2": {
+            "machine": 5,
+            "start": 19
+          },
+          "j5o3": {
+            "machine": 0,
+            "start": 28
+          },
+          "j5o4": {
+            "machine": 4,
+            "start": 45
+          },
+          "j5o5": {
+            "machine": 2,
+            "start": 57
+          }
+        },
+        "status": "OPTIMAL"
+      },
+      "state": "finished"
+    },
+    {
+      "K": 10,
+      "artifact": "queries/ft06-q75-d1/primary-001-changes.json",
+      "index": 1,
+      "makespan_cap": 58,
+      "objective": "changes",
+      "result": {
+        "K": 10,
+        "check": {
+          "R": 4,
+          "changed_ids": [
+            "j1o4",
+            "j1o5",
+            "j4o4",
+            "j4o5"
+          ],
+          "errors": [],
+          "makespan": 58,
+          "valid": true
+        },
+        "child_cpu_seconds": 1.1219520000000038,
+        "detail": {
+          "best_bound": 4.0,
+          "branches": 23,
+          "conflicts": 0,
+          "hint": true,
+          "horizon": 252,
+          "model_R": 4,
+          "model_makespan": 58,
+          "objective": 4.0,
+          "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 4\nbest_bound: 4\nintegers: 13\nbooleans: 9\nconflicts: 0\nbranches: 23\npropagations: 24\ninteger_propagations: 70\nrestarts: 0\nlp_iterations: 2\nwalltime: 0.002831\nusertime: 0.002831\ndeterministic_time: 4.64194e-05\ngap_integral: 0\nsolution_fingerprint: 0x446c51164efeabd0\n",
+          "solver_status": "OPTIMAL",
+          "solver_wall_seconds": 0.002831,
+          "status": "OPTIMAL",
+          "worker_cpu_seconds": 0.827579,
+          "worker_peak_rss_bytes": 123600896
+        },
+        "elapsed_seconds": 0.8847105840104632,
+        "formulation": "primary",
+        "makespan_cap": 58,
+        "objective_kind": "changes",
+        "sampled_combined_rss_bytes": 119029760,
+        "schedule": {
+          "j0o0": {
+            "machine": 2,
+            "start": 0
+          },
+          "j0o1": {
+            "machine": 0,
+            "start": 1
+          },
+          "j0o2": {
+            "machine": 1,
+            "start": 16
+          },
+          "j0o3": {
+            "machine": 3,
+            "start": 30
+          },
+          "j0o4": {
+            "machine": 5,
+            "start": 42
+          },
+          "j0o5": {
+            "machine": 4,
+            "start": 49
+          },
+          "j1o0": {
+            "machine": 1,
+            "start": 0
+          },
+          "j1o1": {
+            "machine": 2,
+            "start": 8
+          },
+          "j1o2": {
+            "machine": 4,
+            "start": 13
+          },
+          "j1o3": {
+            "machine": 5,
+            "start": 28
+          },
+          "j1o4": {
+            "machine": 0,
+            "start": 43
+          },
+          "j1o5": {
+            "machine": 3,
+            "start": 53
+          },
+          "j2o0": {
+            "machine": 2,
+            "start": 1
+          },
+          "j2o1": {
+            "machine": 3,
+            "start": 6
+          },
+          "j2o2": {
+            "machine": 5,
+            "start": 10
+          },
+          "j2o3": {
+            "machine": 0,
+            "start": 18
+          },
+          "j2o4": {
+            "machine": 1,
+            "start": 27
+          },
+          "j2o5": {
+            "machine": 4,
+            "start": 30
+          },
+          "j3o0": {
+            "machine": 1,
+            "start": 8
+          },
+          "j3o1": {
+            "machine": 0,
+            "start": 13
+          },
+          "j3o2": {
+            "machine": 2,
+            "start": 22
+          },
+          "j3o3": {
+            "machine": 3,
+            "start": 27
+          },
+          "j3o4": {
+            "machine": 4,
+            "start": 37
+          },
+          "j3o5": {
+            "machine": 5,
+            "start": 45
+          },
+          "j4o0": {
+            "machine": 2,
+            "start": 13
+          },
+          "j4o1": {
+            "machine": 1,
+            "start": 22
+          },
+          "j4o2": {
+            "machine": 4,
+            "start": 25
+          },
+          "j4o3": {
+            "machine": 5,
+            "start": 38
+          },
+          "j4o4": {
+            "machine": 0,
+            "start": 53
+          },
+          "j4o5": {
+            "machine": 3,
+            "start": 57
+          },
+          "j5o0": {
+            "machine": 1,
+            "start": 13
+          },
+          "j5o1": {
+            "machine": 3,
+            "start": 16
+          },
+          "j5o2": {
+            "machine": 5,
+            "start": 19
+          },
+          "j5o3": {
+            "machine": 0,
+            "start": 28
+          },
+          "j5o4": {
+            "machine": 4,
+            "start": 45
+          },
+          "j5o5": {
+            "machine": 2,
+            "start": 49
+          }
+        },
+        "status": "OPTIMAL"
+      },
+      "state": "finished"
+    },
+    {
+      "K": 3,
+      "artifact": "queries/ft06-q75-d1/primary-002-makespan.json",
+      "index": 2,
+      "makespan_cap": null,
+      "objective": "makespan",
+      "result": {
+        "K": 3,
+        "check": {
+          "R": 3,
+          "changed_ids": [
+            "j1o4",
+            "j1o5",
+            "j4o4"
+          ],
+          "errors": [],
+          "makespan": 60,
+          "valid": true
+        },
+        "child_cpu_seconds": 1.110622000000001,
+        "detail": {
+          "best_bound": 60.0,
+          "branches": 19,
+          "conflicts": 1,
+          "hint": true,
+          "horizon": 252,
+          "model_R": 3,
+          "model_makespan": 60,
+          "objective": 60.0,
+          "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 60\nbest_bound: 60\nintegers: 5\nbooleans: 10\nconflicts: 1\nbranches: 19\npropagations: 37\ninteger_propagations: 46\nrestarts: 0\nlp_iterations: 0\nwalltime: 0.001973\nusertime: 0.001973\ndeterministic_time: 6.7342e-05\ngap_integral: 0\nsolution_fingerprint: 0xcec0aaceb3474909\n",
+          "solver_status": "OPTIMAL",
+          "solver_wall_seconds": 0.001973,
+          "status": "OPTIMAL",
+          "worker_cpu_seconds": 0.814453,
+          "worker_peak_rss_bytes": 123486208
+        },
+        "elapsed_seconds": 0.8710308329900727,
+        "formulation": "primary",
+        "makespan_cap": null,
+        "objective_kind": "makespan",
+        "sampled_combined_rss_bytes": 119275520,
+        "schedule": {
+          "j0o0": {
+            "machine": 2,
+            "start": 0
+          },
+          "j0o1": {
+            "machine": 0,
+            "start": 1
+          },
+          "j0o2": {
+            "machine": 1,
+            "start": 16
+          },
+          "j0o3": {
+            "machine": 3,
+            "start": 30
+          },
+          "j0o4": {
+            "machine": 5,
+            "start": 42
+          },
+          "j0o5": {
+            "machine": 4,
+            "start": 49
+          },
+          "j1o0": {
+            "machine": 1,
+            "start": 0
+          },
+          "j1o1": {
+            "machine": 2,
+            "start": 8
+          },
+          "j1o2": {
+            "machine": 4,
+            "start": 13
+          },
+          "j1o3": {
+            "machine": 5,
+            "start": 28
+          },
+          "j1o4": {
+            "machine": 0,
+            "start": 46
+          },
+          "j1o5": {
+            "machine": 3,
+            "start": 56
+          },
+          "j2o0": {
+            "machine": 2,
+            "start": 1
+          },
+          "j2o1": {
+            "machine": 3,
+            "start": 6
+          },
+          "j2o2": {
+            "machine": 5,
+            "start": 10
+          },
+          "j2o3": {
+            "machine": 0,
+            "start": 18
+          },
+          "j2o4": {
+            "machine": 1,
+            "start": 27
+          },
+          "j2o5": {
+            "machine": 4,
+            "start": 30
+          },
+          "j3o0": {
+            "machine": 1,
+            "start": 8
+          },
+          "j3o1": {
+            "machine": 0,
+            "start": 13
+          },
+          "j3o2": {
+            "machine": 2,
+            "start": 22
+          },
+          "j3o3": {
+            "machine": 3,
+            "start": 27
+          },
+          "j3o4": {
+            "machine": 4,
+            "start": 37
+          },
+          "j3o5": {
+            "machine": 5,
+            "start": 45
+          },
+          "j4o0": {
+            "machine": 2,
+            "start": 13
+          },
+          "j4o1": {
+            "machine": 1,
+            "start": 22
+          },
+          "j4o2": {
+            "machine": 4,
+            "start": 25
+          },
+          "j4o3": {
+            "machine": 5,
+            "start": 38
+          },
+          "j4o4": {
+            "machine": 0,
+            "start": 43
+          },
+          "j4o5": {
+            "machine": 3,
+            "start": 52
+          },
+          "j5o0": {
+            "machine": 1,
+            "start": 13
+          },
+          "j5o1": {
+            "machine": 3,
+            "start": 16
+          },
+          "j5o2": {
+            "machine": 5,
+            "start": 19
+          },
+          "j5o3": {
+            "machine": 0,
+            "start": 28
+          },
+          "j5o4": {
+            "machine": 4,
+            "start": 45
+          },
+          "j5o5": {
+            "machine": 2,
+            "start": 49
+          }
+        },
+        "status": "OPTIMAL"
+      },
+      "state": "finished"
+    },
+    {
+      "K": 3,
+      "artifact": "queries/ft06-q75-d1/primary-003-changes.json",
+      "index": 3,
+      "makespan_cap": 60,
+      "objective": "changes",
+      "result": {
+        "K": 3,
+        "check": {
+          "R": 3,
+          "changed_ids": [
+            "j1o4",
+            "j1o5",
+            "j4o4"
+          ],
+          "errors": [],
+          "makespan": 60,
+          "valid": true
+        },
+        "child_cpu_seconds": 1.1145850000000017,
+        "detail": {
+          "best_bound": 3.0,
+          "branches": 0,
+          "conflicts": 0,
+          "hint": true,
+          "horizon": 252,
+          "model_R": 3,
+          "model_makespan": 60,
+          "objective": 3.0,
+          "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 3\nbest_bound: 3\nintegers: 1\nbooleans: 0\nconflicts: 0\nbranches: 0\npropagations: 0\ninteger_propagations: 0\nrestarts: 0\nlp_iterations: 0\nwalltime: 0.001628\nusertime: 0.001628\ndeterministic_time: 3.0917e-05\ngap_integral: 0\nsolution_fingerprint: 0xcec0aaceb3474909\n",
+          "solver_status": "OPTIMAL",
+          "solver_wall_seconds": 0.001628,
+          "status": "OPTIMAL",
+          "worker_cpu_seconds": 0.834687,
+          "worker_peak_rss_bytes": 122896384
+        },
+        "elapsed_seconds": 0.8745872920262627,
+        "formulation": "primary",
+        "makespan_cap": 60,
+        "objective_kind": "changes",
+        "sampled_combined_rss_bytes": 117440512,
+        "schedule": {
+          "j0o0": {
+            "machine": 2,
+            "start": 0
+          },
+          "j0o1": {
+            "machine": 0,
+            "start": 1
+          },
+          "j0o2": {
+            "machine": 1,
+            "start": 16
+          },
+          "j0o3": {
+            "machine": 3,
+            "start": 30
+          },
+          "j0o4": {
+            "machine": 5,
+            "start": 42
+          },
+          "j0o5": {
+            "machine": 4,
+            "start": 49
+          },
+          "j1o0": {
+            "machine": 1,
+            "start": 0
+          },
+          "j1o1": {
+            "machine": 2,
+            "start": 8
+          },
+          "j1o2": {
+            "machine": 4,
+            "start": 13
+          },
+          "j1o3": {
+            "machine": 5,
+            "start": 28
+          },
+          "j1o4": {
+            "machine": 0,
+            "start": 46
+          },
+          "j1o5": {
+            "machine": 3,
+            "start": 56
+          },
+          "j2o0": {
+            "machine": 2,
+            "start": 1
+          },
+          "j2o1": {
+            "machine": 3,
+            "start": 6
+          },
+          "j2o2": {
+            "machine": 5,
+            "start": 10
+          },
+          "j2o3": {
+            "machine": 0,
+            "start": 18
+          },
+          "j2o4": {
+            "machine": 1,
+            "start": 27
+          },
+          "j2o5": {
+            "machine": 4,
+            "start": 30
+          },
+          "j3o0": {
+            "machine": 1,
+            "start": 8
+          },
+          "j3o1": {
+            "machine": 0,
+            "start": 13
+          },
+          "j3o2": {
+            "machine": 2,
+            "start": 22
+          },
+          "j3o3": {
+            "machine": 3,
+            "start": 27
+          },
+          "j3o4": {
+            "machine": 4,
+            "start": 37
+          },
+          "j3o5": {
+            "machine": 5,
+            "start": 45
+          },
+          "j4o0": {
+            "machine": 2,
+            "start": 13
+          },
+          "j4o1": {
+            "machine": 1,
+            "start": 22
+          },
+          "j4o2": {
+            "machine": 4,
+            "start": 25
+          },
+          "j4o3": {
+            "machine": 5,
+            "start": 38
+          },
+          "j4o4": {
+            "machine": 0,
+            "start": 43
+          },
+          "j4o5": {
+            "machine": 3,
+            "start": 52
+          },
+          "j5o0": {
+            "machine": 1,
+            "start": 13
+          },
+          "j5o1": {
+            "machine": 3,
+            "start": 16
+          },
+          "j5o2": {
+            "machine": 5,
+            "start": 19
+          },
+          "j5o3": {
+            "machine": 0,
+            "start": 28
+          },
+          "j5o4": {
+            "machine": 4,
+            "start": 45
+          },
+          "j5o5": {
+            "machine": 2,
+            "start": 49
+          }
+        },
+        "status": "OPTIMAL"
+      },
+      "state": "finished"
+    },
+    {
+      "K": 2,
+      "artifact": "queries/ft06-q75-d1/primary-004-makespan.json",
+      "index": 4,
+      "makespan_cap": null,
+      "objective": "makespan",
+      "result": {
+        "K": 2,
+        "check": {
+          "R": 2,
+          "changed_ids": [
+            "j1o4",
+            "j1o5"
+          ],
+          "errors": [],
+          "makespan": 65,
+          "valid": true
+        },
+        "child_cpu_seconds": 1.1044740000000015,
+        "detail": {
+          "best_bound": 65.0,
+          "branches": 0,
+          "conflicts": 0,
+          "hint": true,
+          "horizon": 252,
+          "model_R": 2,
+          "model_makespan": 65,
+          "objective": 65.0,
+          "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 65\nbest_bound: 65\nintegers: 1\nbooleans: 0\nconflicts: 0\nbranches: 0\npropagations: 0\ninteger_propagations: 0\nrestarts: 0\nlp_iterations: 0\nwalltime: 0.001287\nusertime: 0.001287\ndeterministic_time: 1.559e-06\ngap_integral: 0\nsolution_fingerprint: 0xc9e06c30f65a158f\n",
+          "solver_status": "OPTIMAL",
+          "solver_wall_seconds": 0.0012870000000000002,
+          "status": "OPTIMAL",
+          "worker_cpu_seconds": 0.8226859999999999,
+          "worker_peak_rss_bytes": 122159104
+        },
+        "elapsed_seconds": 0.8682087910128757,
+        "formulation": "primary",
+        "makespan_cap": null,
+        "objective_kind": "makespan",
+        "sampled_combined_rss_bytes": 116998144,
+        "schedule": {
+          "j0o0": {
+            "machine": 2,
+            "start": 0
+          },
+          "j0o1": {
+            "machine": 0,
+            "start": 1
+          },
+          "j0o2": {
+            "machine": 1,
+            "start": 16
+          },
+          "j0o3": {
+            "machine": 3,
+            "start": 30
+          },
+          "j0o4": {
+            "machine": 5,
+            "start": 42
+          },
+          "j0o5": {
+            "machine": 4,
+            "start": 49
+          },
+          "j1o0": {
+            "machine": 1,
+            "start": 0
+          },
+          "j1o1": {
+            "machine": 2,
+            "start": 8
+          },
+          "j1o2": {
+            "machine": 4,
+            "start": 13
+          },
+          "j1o3": {
+            "machine": 5,
+            "start": 28
+          },
+          "j1o4": {
+            "machine": 0,
+            "start": 51
+          },
+          "j1o5": {
+            "machine": 3,
+            "start": 61
+          },
+          "j2o0": {
+            "machine": 2,
+            "start": 1
+          },
+          "j2o1": {
+            "machine": 3,
+            "start": 6
+          },
+          "j2o2": {
+            "machine": 5,
+            "start": 10
+          },
+          "j2o3": {
+            "machine": 0,
+            "start": 18
+          },
+          "j2o4": {
+            "machine": 1,
+            "start": 27
+          },
+          "j2o5": {
+            "machine": 4,
+            "start": 30
+          },
+          "j3o0": {
+            "machine": 1,
+            "start": 8
+          },
+          "j3o1": {
+            "machine": 0,
+            "start": 13
+          },
+          "j3o2": {
+            "machine": 2,
+            "start": 22
+          },
+          "j3o3": {
+            "machine": 3,
+            "start": 27
+          },
+          "j3o4": {
+            "machine": 4,
+            "start": 37
+          },
+          "j3o5": {
+            "machine": 5,
+            "start": 45
+          },
+          "j4o0": {
+            "machine": 2,
+            "start": 13
+          },
+          "j4o1": {
+            "machine": 1,
+            "start": 22
+          },
+          "j4o2": {
+            "machine": 4,
+            "start": 25
+          },
+          "j4o3": {
+            "machine": 5,
+            "start": 38
+          },
+          "j4o4": {
+            "machine": 0,
+            "start": 48
+          },
+          "j4o5": {
+            "machine": 3,
+            "start": 52
+          },
+          "j5o0": {
+            "machine": 1,
+            "start": 13
+          },
+          "j5o1": {
+            "machine": 3,
+            "start": 16
+          },
+          "j5o2": {
+            "machine": 5,
+            "start": 19
+          },
+          "j5o3": {
+            "machine": 0,
+            "start": 28
+          },
+          "j5o4": {
+            "machine": 4,
+            "start": 45
+          },
+          "j5o5": {
+            "machine": 2,
+            "start": 49
+          }
+        },
+        "status": "OPTIMAL"
+      },
+      "state": "finished"
+    },
+    {
+      "K": 2,
+      "artifact": "queries/ft06-q75-d1/primary-005-changes.json",
+      "index": 5,
+      "makespan_cap": 65,
+      "objective": "changes",
+      "result": {
+        "K": 2,
+        "check": {
+          "R": 2,
+          "changed_ids": [
+            "j1o4",
+            "j1o5"
+          ],
+          "errors": [],
+          "makespan": 65,
+          "valid": true
+        },
+        "child_cpu_seconds": 1.1223530000000004,
+        "detail": {
+          "best_bound": 2.0,
+          "branches": 0,
+          "conflicts": 0,
+          "hint": true,
+          "horizon": 252,
+          "model_R": 2,
+          "model_makespan": 65,
+          "objective": 2.0,
+          "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 2\nbest_bound: 2\nintegers: 1\nbooleans: 0\nconflicts: 0\nbranches: 0\npropagations: 0\ninteger_propagations: 0\nrestarts: 0\nlp_iterations: 0\nwalltime: 0.001655\nusertime: 0.001655\ndeterministic_time: 2.6387e-05\ngap_integral: 0\nsolution_fingerprint: 0xc9e06c30f65a158f\n",
+          "solver_status": "OPTIMAL",
+          "solver_wall_seconds": 0.001655,
+          "status": "OPTIMAL",
+          "worker_cpu_seconds": 0.8336159999999999,
+          "worker_peak_rss_bytes": 122748928
+        },
+        "elapsed_seconds": 0.8936090000206605,
+        "formulation": "primary",
+        "makespan_cap": 65,
+        "objective_kind": "changes",
+        "sampled_combined_rss_bytes": 117178368,
+        "schedule": {
+          "j0o0": {
+            "machine": 2,
+            "start": 0
+          },
+          "j0o1": {
+            "machine": 0,
+            "start": 1
+          },
+          "j0o2": {
+            "machine": 1,
+            "start": 16
+          },
+          "j0o3": {
+            "machine": 3,
+            "start": 30
+          },
+          "j0o4": {
+            "machine": 5,
+            "start": 42
+          },
+          "j0o5": {
+            "machine": 4,
+            "start": 49
+          },
+          "j1o0": {
+            "machine": 1,
+            "start": 0
+          },
+          "j1o1": {
+            "machine": 2,
+            "start": 8
+          },
+          "j1o2": {
+            "machine": 4,
+            "start": 13
+          },
+          "j1o3": {
+            "machine": 5,
+            "start": 28
+          },
+          "j1o4": {
+            "machine": 0,
+            "start": 51
+          },
+          "j1o5": {
+            "machine": 3,
+            "start": 61
+          },
+          "j2o0": {
+            "machine": 2,
+            "start": 1
+          },
+          "j2o1": {
+            "machine": 3,
+            "start": 6
+          },
+          "j2o2": {
+            "machine": 5,
+            "start": 10
+          },
+          "j2o3": {
+            "machine": 0,
+            "start": 18
+          },
+          "j2o4": {
+            "machine": 1,
+            "start": 27
+          },
+          "j2o5": {
+            "machine": 4,
+            "start": 30
+          },
+          "j3o0": {
+            "machine": 1,
+            "start": 8
+          },
+          "j3o1": {
+            "machine": 0,
+            "start": 13
+          },
+          "j3o2": {
+            "machine": 2,
+            "start": 22
+          },
+          "j3o3": {
+            "machine": 3,
+            "start": 27
+          },
+          "j3o4": {
+            "machine": 4,
+            "start": 37
+          },
+          "j3o5": {
+            "machine": 5,
+            "start": 45
+          },
+          "j4o0": {
+            "machine": 2,
+            "start": 13
+          },
+          "j4o1": {
+            "machine": 1,
+            "start": 22
+          },
+          "j4o2": {
+            "machine": 4,
+            "start": 25
+          },
+          "j4o3": {
+            "machine": 5,
+            "start": 38
+          },
+          "j4o4": {
+            "machine": 0,
+            "start": 48
+          },
+          "j4o5": {
+            "machine": 3,
+            "start": 52
+          },
+          "j5o0": {
+            "machine": 1,
+            "start": 13
+          },
+          "j5o1": {
+            "machine": 3,
+            "start": 16
+          },
+          "j5o2": {
+            "machine": 5,
+            "start": 19
+          },
+          "j5o3": {
+            "machine": 0,
+            "start": 28
+          },
+          "j5o4": {
+            "machine": 4,
+            "start": 45
+          },
+          "j5o5": {
+            "machine": 2,
+            "start": 49
+          }
+        },
+        "status": "OPTIMAL"
+      },
+      "state": "finished"
+    },
+    {
+      "K": 1,
+      "artifact": "queries/ft06-q75-d1/primary-006-makespan.json",
+      "index": 6,
+      "makespan_cap": null,
+      "objective": "makespan",
+      "result": {
+        "K": 1,
+        "check": null,
+        "child_cpu_seconds": 1.1723219999999994,
+        "detail": {
+          "branches": 0,
+          "conflicts": 0,
+          "hint": true,
+          "horizon": 252,
+          "response_stats": "CpSolverResponse summary:\nstatus: INFEASIBLE\nobjective: NA\nbest_bound: NA\nintegers: 0\nbooleans: 0\nconflicts: 0\nbranches: 0\npropagations: 0\ninteger_propagations: 0\nrestarts: 0\nlp_iterations: 0\nwalltime: 0.001126\nusertime: 0.001126\ndeterministic_time: 0\ngap_integral: 0\n",
+          "solver_status": "INFEASIBLE",
+          "solver_wall_seconds": 0.001126,
+          "status": "INFEASIBLE",
+          "worker_cpu_seconds": 0.875404,
+          "worker_peak_rss_bytes": 121782272
+        },
+        "elapsed_seconds": 0.9319444170105271,
+        "formulation": "primary",
+        "makespan_cap": null,
+        "objective_kind": "makespan",
+        "sampled_combined_rss_bytes": 115228672,
+        "schedule": null,
+        "status": "INFEASIBLE"
+      },
+      "state": "finished"
+    }
+  ],
+  "unconfirmed_candidates_not_frontier": [],
+  "unresolved_K_range": null
+}

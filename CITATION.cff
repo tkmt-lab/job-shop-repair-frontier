@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this software and the benchmark sources listed in README.md."
+title: "Job-shop repair frontier"
+type: software
+authors:
+  - family-names: Takimoto
+    given-names: Tatsuhiko
+version: 1.0.0
+date-released: 2026-11-01
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+  - MIT
+abstract: "K-bounded job-shop schedule repair and R/M frontier enumeration, with 20 outage events, 153 saved schedules and solver-free integer checks."

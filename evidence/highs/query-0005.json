@@ -1,0 +1,14 @@
+{
+  "query": 5,
+  "event": "ft06-q25-d1",
+  "objective": "M",
+  "Rcap": 2,
+  "Mcap": null,
+  "status": "Infeasible",
+  "wall_seconds": 0.0013770830119028687,
+  "cpu_seconds": 0.0013679999999999526,
+  "total_cpu": 0.09584899999999996,
+  "dual_bound": -Infinity,
+  "gap": Infinity,
+  "nodes": 0
+}

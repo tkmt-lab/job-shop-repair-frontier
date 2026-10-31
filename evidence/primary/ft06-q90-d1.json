@@ -1,0 +1,629 @@
+{
+  "complete": true,
+  "complete_independently_checked": true,
+  "completeness_scope": "primary CP-SAT formulation",
+  "confirmed_infeasible_K_range": [
+    0,
+    1
+  ],
+  "confirmed_optimal_K_ranges": [
+    {
+      "K_from": 2,
+      "K_to": 5,
+      "evidence": "primary_CP_SAT_OPTIMAL",
+      "minimum_makespan": 58
+    }
+  ],
+  "cp_sat_frontier_points": [
+    {
+      "R": 2,
+      "makespan": 58,
+      "query_indices": [
+        0,
+        1
+      ],
+      "schedule": {
+        "j0o0": {
+          "machine": 2,
+          "start": 0
+        },
+        "j0o1": {
+          "machine": 0,
+          "start": 1
+        },
+        "j0o2": {
+          "machine": 1,
+          "start": 16
+        },
+        "j0o3": {
+          "machine": 3,
+          "start": 30
+        },
+        "j0o4": {
+          "machine": 5,
+          "start": 42
+        },
+        "j0o5": {
+          "machine": 4,
+          "start": 49
+        },
+        "j1o0": {
+          "machine": 1,
+          "start": 0
+        },
+        "j1o1": {
+          "machine": 2,
+          "start": 8
+        },
+        "j1o2": {
+          "machine": 4,
+          "start": 13
+        },
+        "j1o3": {
+          "machine": 5,
+          "start": 28
+        },
+        "j1o4": {
+          "machine": 0,
+          "start": 38
+        },
+        "j1o5": {
+          "machine": 3,
+          "start": 54
+        },
+        "j2o0": {
+          "machine": 2,
+          "start": 1
+        },
+        "j2o1": {
+          "machine": 3,
+          "start": 6
+        },
+        "j2o2": {
+          "machine": 5,
+          "start": 10
+        },
+        "j2o3": {
+          "machine": 0,
+          "start": 18
+        },
+        "j2o4": {
+          "machine": 1,
+          "start": 27
+        },
+        "j2o5": {
+          "machine": 4,
+          "start": 30
+        },
+        "j3o0": {
+          "machine": 1,
+          "start": 8
+        },
+        "j3o1": {
+          "machine": 0,
+          "start": 13
+        },
+        "j3o2": {
+          "machine": 2,
+          "start": 22
+        },
+        "j3o3": {
+          "machine": 3,
+          "start": 27
+        },
+        "j3o4": {
+          "machine": 4,
+          "start": 37
+        },
+        "j3o5": {
+          "machine": 5,
+          "start": 45
+        },
+        "j4o0": {
+          "machine": 2,
+          "start": 13
+        },
+        "j4o1": {
+          "machine": 1,
+          "start": 22
+        },
+        "j4o2": {
+          "machine": 4,
+          "start": 25
+        },
+        "j4o3": {
+          "machine": 5,
+          "start": 38
+        },
+        "j4o4": {
+          "machine": 0,
+          "start": 48
+        },
+        "j4o5": {
+          "machine": 3,
+          "start": 53
+        },
+        "j5o0": {
+          "machine": 1,
+          "start": 13
+        },
+        "j5o1": {
+          "machine": 3,
+          "start": 16
+        },
+        "j5o2": {
+          "machine": 5,
+          "start": 19
+        },
+        "j5o3": {
+          "machine": 0,
+          "start": 28
+        },
+        "j5o4": {
+          "machine": 4,
+          "start": 45
+        },
+        "j5o5": {
+          "machine": 2,
+          "start": 49
+        }
+      },
+      "searched_K_cap": 5,
+      "status": "CP_SAT_OPTIMAL",
+      "verification": "checked_with_time_indexed_formulation"
+    }
+  ],
+  "elapsed_seconds": 2.5582147910026833,
+  "event_id": "ft06-q90-d1",
+  "full_K": 5,
+  "independent_infeasible_tail": {
+    "K": 1,
+    "artifact": "queries/ft06-q90-d1/independent-tail.json",
+    "confirmed": true,
+    "status": "INFEASIBLE"
+  },
+  "independent_point_checks": [
+    {
+      "R": 2,
+      "confirmed": true,
+      "makespan": 58,
+      "queries": [
+        {
+          "K": 5,
+          "actual": 58,
+          "artifact": "queries/ft06-q90-d1/independent-000-makespan.json",
+          "confirmed": true,
+          "expected": 58,
+          "objective": "makespan",
+          "status": "OPTIMAL"
+        },
+        {
+          "K": 5,
+          "actual": 2,
+          "artifact": "queries/ft06-q90-d1/independent-000-changes.json",
+          "confirmed": true,
+          "expected": 2,
+          "objective": "changes",
+          "status": "OPTIMAL"
+        }
+      ]
+    }
+  ],
+  "reason": "no_feasible_point_below_previous",
+  "trials": [
+    {
+      "K": 5,
+      "artifact": "queries/ft06-q90-d1/primary-000-makespan.json",
+      "index": 0,
+      "makespan_cap": null,
+      "objective": "makespan",
+      "result": {
+        "K": 5,
+        "check": {
+          "R": 2,
+          "changed_ids": [
+            "j1o5",
+            "j4o5"
+          ],
+          "errors": [],
+          "makespan": 58,
+          "valid": true
+        },
+        "child_cpu_seconds": 1.0864580000000004,
+        "detail": {
+          "best_bound": 58.0,
+          "branches": 3,
+          "conflicts": 0,
+          "hint": true,
+          "horizon": 252,
+          "model_R": 2,
+          "model_makespan": 58,
+          "objective": 58.0,
+          "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 58\nbest_bound: 58\nintegers: 3\nbooleans: 3\nconflicts: 0\nbranches: 3\npropagations: 0\ninteger_propagations: 4\nrestarts: 0\nlp_iterations: 0\nwalltime: 0.001416\nusertime: 0.001416\ndeterministic_time: 5.598e-06\ngap_integral: 0\nsolution_fingerprint: 0xd6a08e1d1f2d0d42\n",
+          "solver_status": "OPTIMAL",
+          "solver_wall_seconds": 0.0014160000000000002,
+          "status": "OPTIMAL",
+          "worker_cpu_seconds": 0.8083429999999999,
+          "worker_peak_rss_bytes": 122716160
+        },
+        "elapsed_seconds": 0.8516238749725744,
+        "formulation": "primary",
+        "makespan_cap": null,
+        "objective_kind": "makespan",
+        "sampled_combined_rss_bytes": 118800384,
+        "schedule": {
+          "j0o0": {
+            "machine": 2,
+            "start": 0
+          },
+          "j0o1": {
+            "machine": 0,
+            "start": 1
+          },
+          "j0o2": {
+            "machine": 1,
+            "start": 16
+          },
+          "j0o3": {
+            "machine": 3,
+            "start": 30
+          },
+          "j0o4": {
+            "machine": 5,
+            "start": 42
+          },
+          "j0o5": {
+            "machine": 4,
+            "start": 49
+          },
+          "j1o0": {
+            "machine": 1,
+            "start": 0
+          },
+          "j1o1": {
+            "machine": 2,
+            "start": 8
+          },
+          "j1o2": {
+            "machine": 4,
+            "start": 13
+          },
+          "j1o3": {
+            "machine": 5,
+            "start": 28
+          },
+          "j1o4": {
+            "machine": 0,
+            "start": 38
+          },
+          "j1o5": {
+            "machine": 3,
+            "start": 53
+          },
+          "j2o0": {
+            "machine": 2,
+            "start": 1
+          },
+          "j2o1": {
+            "machine": 3,
+            "start": 6
+          },
+          "j2o2": {
+            "machine": 5,
+            "start": 10
+          },
+          "j2o3": {
+            "machine": 0,
+            "start": 18
+          },
+          "j2o4": {
+            "machine": 1,
+            "start": 27
+          },
+          "j2o5": {
+            "machine": 4,
+            "start": 30
+          },
+          "j3o0": {
+            "machine": 1,
+            "start": 8
+          },
+          "j3o1": {
+            "machine": 0,
+            "start": 13
+          },
+          "j3o2": {
+            "machine": 2,
+            "start": 22
+          },
+          "j3o3": {
+            "machine": 3,
+            "start": 27
+          },
+          "j3o4": {
+            "machine": 4,
+            "start": 37
+          },
+          "j3o5": {
+            "machine": 5,
+            "start": 45
+          },
+          "j4o0": {
+            "machine": 2,
+            "start": 13
+          },
+          "j4o1": {
+            "machine": 1,
+            "start": 22
+          },
+          "j4o2": {
+            "machine": 4,
+            "start": 25
+          },
+          "j4o3": {
+            "machine": 5,
+            "start": 38
+          },
+          "j4o4": {
+            "machine": 0,
+            "start": 48
+          },
+          "j4o5": {
+            "machine": 3,
+            "start": 57
+          },
+          "j5o0": {
+            "machine": 1,
+            "start": 13
+          },
+          "j5o1": {
+            "machine": 3,
+            "start": 16
+          },
+          "j5o2": {
+            "machine": 5,
+            "start": 19
+          },
+          "j5o3": {
+            "machine": 0,
+            "start": 28
+          },
+          "j5o4": {
+            "machine": 4,
+            "start": 45
+          },
+          "j5o5": {
+            "machine": 2,
+            "start": 49
+          }
+        },
+        "status": "OPTIMAL"
+      },
+      "state": "finished"
+    },
+    {
+      "K": 5,
+      "artifact": "queries/ft06-q90-d1/primary-001-changes.json",
+      "index": 1,
+      "makespan_cap": 58,
+      "objective": "changes",
+      "result": {
+        "K": 5,
+        "check": {
+          "R": 2,
+          "changed_ids": [
+            "j1o5",
+            "j4o5"
+          ],
+          "errors": [],
+          "makespan": 58,
+          "valid": true
+        },
+        "child_cpu_seconds": 1.0874650000000035,
+        "detail": {
+          "best_bound": 2.0,
+          "branches": 0,
+          "conflicts": 0,
+          "hint": true,
+          "horizon": 252,
+          "model_R": 2,
+          "model_makespan": 58,
+          "objective": 2.0,
+          "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: 2\nbest_bound: 2\nintegers: 0\nbooleans: 0\nconflicts: 0\nbranches: 0\npropagations: 0\ninteger_propagations: 0\nrestarts: 0\nlp_iterations: 0\nwalltime: 0.002407\nusertime: 0.002407\ndeterministic_time: 7.44e-06\ngap_integral: 0\nsolution_fingerprint: 0xf76590aeb97a085f\n",
+          "solver_status": "OPTIMAL",
+          "solver_wall_seconds": 0.0024070000000000003,
+          "status": "OPTIMAL",
+          "worker_cpu_seconds": 0.8032699999999999,
+          "worker_peak_rss_bytes": 122224640
+        },
+        "elapsed_seconds": 0.8565187499625608,
+        "formulation": "primary",
+        "makespan_cap": 58,
+        "objective_kind": "changes",
+        "sampled_combined_rss_bytes": 118996992,
+        "schedule": {
+          "j0o0": {
+            "machine": 2,
+            "start": 0
+          },
+          "j0o1": {
+            "machine": 0,
+            "start": 1
+          },
+          "j0o2": {
+            "machine": 1,
+            "start": 16
+          },
+          "j0o3": {
+            "machine": 3,
+            "start": 30
+          },
+          "j0o4": {
+            "machine": 5,
+            "start": 42
+          },
+          "j0o5": {
+            "machine": 4,
+            "start": 49
+          },
+          "j1o0": {
+            "machine": 1,
+            "start": 0
+          },
+          "j1o1": {
+            "machine": 2,
+            "start": 8
+          },
+          "j1o2": {
+            "machine": 4,
+            "start": 13
+          },
+          "j1o3": {
+            "machine": 5,
+            "start": 28
+          },
+          "j1o4": {
+            "machine": 0,
+            "start": 38
+          },
+          "j1o5": {
+            "machine": 3,
+            "start": 54
+          },
+          "j2o0": {
+            "machine": 2,
+            "start": 1
+          },
+          "j2o1": {
+            "machine": 3,
+            "start": 6
+          },
+          "j2o2": {
+            "machine": 5,
+            "start": 10
+          },
+          "j2o3": {
+            "machine": 0,
+            "start": 18
+          },
+          "j2o4": {
+            "machine": 1,
+            "start": 27
+          },
+          "j2o5": {
+            "machine": 4,
+            "start": 30
+          },
+          "j3o0": {
+            "machine": 1,
+            "start": 8
+          },
+          "j3o1": {
+            "machine": 0,
+            "start": 13
+          },
+          "j3o2": {
+            "machine": 2,
+            "start": 22
+          },
+          "j3o3": {
+            "machine": 3,
+            "start": 27
+          },
+          "j3o4": {
+            "machine": 4,
+            "start": 37
+          },
+          "j3o5": {
+            "machine": 5,
+            "start": 45
+          },
+          "j4o0": {
+            "machine": 2,
+            "start": 13
+          },
+          "j4o1": {
+            "machine": 1,
+            "start": 22
+          },
+          "j4o2": {
+            "machine": 4,
+            "start": 25
+          },
+          "j4o3": {
+            "machine": 5,
+            "start": 38
+          },
+          "j4o4": {
+            "machine": 0,
+            "start": 48
+          },
+          "j4o5": {
+            "machine": 3,
+            "start": 53
+          },
+          "j5o0": {
+            "machine": 1,
+            "start": 13
+          },
+          "j5o1": {
+            "machine": 3,
+            "start": 16
+          },
+          "j5o2": {
+            "machine": 5,
+            "start": 19
+          },
+          "j5o3": {
+            "machine": 0,
+            "start": 28
+          },
+          "j5o4": {
+            "machine": 4,
+            "start": 45
+          },
+          "j5o5": {
+            "machine": 2,
+            "start": 49
+          }
+        },
+        "status": "OPTIMAL"
+      },
+      "state": "finished"
+    },
+    {
+      "K": 1,
+      "artifact": "queries/ft06-q90-d1/primary-002-makespan.json",
+      "index": 2,
+      "makespan_cap": null,
+      "objective": "makespan",
+      "result": {
+        "K": 1,
+        "check": null,
+        "child_cpu_seconds": 1.0729689999999952,
+        "detail": {
+          "branches": 0,
+          "conflicts": 0,
+          "hint": true,
+          "horizon": 252,
+          "response_stats": "CpSolverResponse summary:\nstatus: INFEASIBLE\nobjective: NA\nbest_bound: NA\nintegers: 0\nbooleans: 0\nconflicts: 0\nbranches: 0\npropagations: 0\ninteger_propagations: 0\nrestarts: 0\nlp_iterations: 0\nwalltime: 0.000952\nusertime: 0.000953\ndeterministic_time: 0\ngap_integral: 0\n",
+          "solver_status": "INFEASIBLE",
+          "solver_wall_seconds": 0.000952,
+          "status": "INFEASIBLE",
+          "worker_cpu_seconds": 0.8028379999999999,
+          "worker_peak_rss_bytes": 121438208
+        },
+        "elapsed_seconds": 0.8467820839723572,
+        "formulation": "primary",
+        "makespan_cap": null,
+        "objective_kind": "makespan",
+        "sampled_combined_rss_bytes": 121716736,
+        "schedule": null,
+        "status": "INFEASIBLE"
+      },
+      "state": "finished"
+    }
+  ],
+  "unconfirmed_candidates_not_frontier": [],
+  "unresolved_K_range": null
+}

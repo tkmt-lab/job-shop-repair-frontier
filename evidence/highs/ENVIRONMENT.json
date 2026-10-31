@@ -1,0 +1,21 @@
+{
+  "input_commit": "63463b05bf2bde8fa8ad4f100ffff76e3246ac74",
+  "python": "3.14.7",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "primary_run_exit": 0,
+  "witness_run_exit": 0,
+  "setup_failures": "Two pre-solver RLIMIT_RSS ValueErrors; replaced by in-process resource monitor. No solver run lost.",
+  "solver_calls": 66,
+  "cpu_seconds": 0.2478519999999994,
+  "peak_rss_primary": 53395456,
+  "feasibility_points": 153,
+  "optimality_points": 24,
+  "untested_optimality_points": 129,
+  "solver_unresolved": 0,
+  "external_cost": 0,
+  "subagents": 0,
+  "scripts": {
+    "audit.py": "1571539f59345d035d48bc2709bfc3ab219749a9aaa3e7133677c073462162a4",
+    "witness_crosscheck.py": "8605019550f0450de8e0c2dad962d1f953c7a062cf5f35927f0fd4afda2ef14e"
+  }
+}

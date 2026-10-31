@@ -1,0 +1,14 @@
+{
+  "query": 25,
+  "event": "ft10-q75-d1",
+  "objective": "feasible",
+  "Rcap": 5,
+  "Mcap": 1102,
+  "status": "Infeasible",
+  "wall_seconds": 0.0008056660299189389,
+  "cpu_seconds": 0.0007869999999999544,
+  "total_cpu": 0.21779699999999988,
+  "dual_bound": -Infinity,
+  "gap": Infinity,
+  "nodes": 0
+}
