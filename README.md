@@ -15,6 +15,8 @@ integer benchmark units.
 Python 3.12 or later, on Linux or macOS. Reading saved results and checking
 the data require only the Python standard library:
 
+Run these commands from the repository root.
+
 ```sh
 python -B frontier.py --saved-result data/frontiers/ft06-q25-d1.json
 python -S -B verify_data.py

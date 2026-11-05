@@ -17,9 +17,13 @@
       "bytes": 802,
       "sha256": "e9950fc587da11953b968c4155febe1d56044c00ea7b414ff6ba4a31d36a4fc0"
     },
+    "CHANGELOG.md": {
+      "bytes": 1065,
+      "sha256": "91311b9de5ade37801286efd11b29c008016d303271d13bdab13a357ed8bd466"
+    },
     "CITATION.cff": {
       "bytes": 454,
-      "sha256": "6383da46062d1f18b11dca8bf76e63413fd16539ff7115839d32d027ce7ba547"
+      "sha256": "7ac39d1a2ab9954906469891bf86b5e32ad498564c3c7560e3680b02cbf6e328"
     },
     "LICENSE": {
       "bytes": 662,
@@ -42,8 +46,8 @@
       "sha256": "0c5e1c42e3156b00a6bd758b1508f91eb0991ac2c2e741871197c3c1d1c06912"
     },
     "README.md": {
-      "bytes": 8893,
-      "sha256": "bd7ef89a9f70587e3a0a0bfdb62b1b5c00226b497d3e3247cf8cc97dc8f8fc64"
+      "bytes": 8939,
+      "sha256": "b0bcd677efee1c24a4a51d8cd16003474acec273e2065fe3e56eb6f5bec300fb"
     },
     "checker.py": {
       "bytes": 1468,
