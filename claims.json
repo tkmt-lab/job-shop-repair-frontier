@@ -2,6 +2,10 @@
   "schema_version": 1,
   "artifact": "job-shop-repair-frontier",
   "version": "1.0.0",
+  "publication_date": "2026-11-18",
+  "authors": [{"name": "Tatsuhiko Takimoto"}],
+  "repository-code": "https://github.com/tkmt-lab/job-shop-repair-frontier",
+  "licenses": {"code_and_ci": "Apache-2.0", "original_data_and_prose": "CC-BY-4.0", "jobshoplib_benchmarks_and_metadata": "MIT"},
   "kind": "software-and-data",
   "lean": {"level": "L0", "reason": "Executable software and finite integer schedule checks; no Lean formalization."},
   "claims": [

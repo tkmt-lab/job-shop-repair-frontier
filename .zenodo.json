@@ -1,10 +1,28 @@
 {
   "title": "Job-shop repair frontier",
   "upload_type": "software",
-  "creators": [{"name": "Takimoto, Tatsuhiko"}],
+  "creators": [
+    {
+      "name": "Takimoto, Tatsuhiko"
+    }
+  ],
   "version": "1.0.0",
   "description": "K-bounded fixed-machine job-shop repair and change-count/completion-time frontiers. Includes 20 synthetic outage events and 153 integer-checked schedules. Separate HiGHS MILP optimality checks cover 24 points; the remaining 129 rely on the primary CP-SAT judgments. Code: Apache-2.0; original data/prose: CC BY 4.0; JobShopLib benchmark matrices retain MIT notices.",
   "access_right": "open",
   "license": "Apache-2.0",
-  "keywords": ["job-shop scheduling", "schedule repair", "Pareto frontier", "OR-Tools", "reproducibility"]
+  "keywords": [
+    "job-shop scheduling",
+    "schedule repair",
+    "Pareto frontier",
+    "OR-Tools",
+    "reproducibility"
+  ],
+  "publication_date": "2026-11-18",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/tkmt-lab/job-shop-repair-frontier",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
 }

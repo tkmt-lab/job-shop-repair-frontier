@@ -1,5 +1,9 @@
 # Job-shop repair frontier
 
+Version **1.0.0** · Release date **2026-11-18** · Author **Tatsuhiko Takimoto**
+
+Repository: https://github.com/tkmt-lab/job-shop-repair-frontier
+
 See how many operation start times must change to recover a given amount of
 delay after a machine outage. The CLI returns a schedule under a hard change
 cap **K**, or the trade-off frontier between the number of changed operations
@@ -102,7 +106,15 @@ The data contain three standard instances, their original schedules X0,
 `data/frontiers/` contains its schedule, R, M, CP-SAT status and separate
 verification labels. Original inputs, X0 and benchmark extracts preserve their
 bytes; `PROVENANCE.json` records source commit and hashes, and `MANIFEST.json`
-hashes the exported files.
+hashes the exported files. The 131 `source-NNNN` entries in `PROVENANCE.json`
+identify historical source records and retain their original byte counts and
+SHA-256 hashes. `exported_files` lists byte-identical copies in this artifact;
+`derived_files` lists adapted files whose current hashes are in `MANIFEST.json`.
+An empty list means that source is not distributed as a file in this artifact.
+The historical event manifest uses `event-input-NNNN` source IDs for its
+80 input variants; its hashes identify those historical inputs, not the
+20 event inputs distributed in `data/events/`. Source IDs are identifiers,
+not filesystem paths or download URLs.
 
 | Evidence | Scope |
 | --- | --- |

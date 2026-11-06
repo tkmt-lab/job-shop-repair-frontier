@@ -1,4 +1,4 @@
-"""Solver-free integer feasibility checker; accepts round1's 60 s budget field."""
+"""Solver-free integer feasibility checker; accepts the legacy 60 s budget field."""
 import argparse
 import json
 from integer_core import check as integer_check, input_errors as core_errors

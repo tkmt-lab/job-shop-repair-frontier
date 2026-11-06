@@ -10,8 +10,8 @@
       "sha256": "cfdbf2343249de19d6fc8974ce4628a9a5fe221dfe8a96098299c1165984d5f0"
     },
     ".zenodo.json": {
-      "bytes": 689,
-      "sha256": "b42dfbd023cce4850628a87916ec32551c596b519d70cf8c358719cc91517707"
+      "bytes": 947,
+      "sha256": "86a27deeb1004fcdecc2224b8373c1c25b7f1ac5a2bfcdaae778a4fce1e83a87"
     },
     "AGENTS.md": {
       "bytes": 802,
@@ -22,8 +22,8 @@
       "sha256": "91311b9de5ade37801286efd11b29c008016d303271d13bdab13a357ed8bd466"
     },
     "CITATION.cff": {
-      "bytes": 454,
-      "sha256": "7ac39d1a2ab9954906469891bf86b5e32ad498564c3c7560e3680b02cbf6e328"
+      "bytes": 524,
+      "sha256": "8b214155c1e1382137ee1e4831a14224570ca7510edd9e454167d4238fa1bf5c"
     },
     "LICENSE": {
       "bytes": 662,
@@ -42,20 +42,20 @@
       "sha256": "f668208af306779b5a02edf16e60706b2f95419301ceeac1187a1f168a6f52c4"
     },
     "PROVENANCE.json": {
-      "bytes": 21454,
-      "sha256": "0c5e1c42e3156b00a6bd758b1508f91eb0991ac2c2e741871197c3c1d1c06912"
+      "bytes": 31895,
+      "sha256": "0423c59e378962b51f6fd5f85d3a1c1c5f3af5609c9769f751b719825e51bcca"
     },
     "README.md": {
-      "bytes": 8939,
-      "sha256": "b0bcd677efee1c24a4a51d8cd16003474acec273e2065fe3e56eb6f5bec300fb"
+      "bytes": 9714,
+      "sha256": "f62d5d6bb76c34695117a0aa77aff1056819a79c52702249e0883ef7b45d2dde"
     },
     "checker.py": {
-      "bytes": 1468,
-      "sha256": "a8ce5b80821628954f95b7dcec980adfff37f53d11e2c91b9b76b74b74ca4c67"
+      "bytes": 1470,
+      "sha256": "6c959c55b44a43812686256572db19b7f0569277683ace0b542c0f56fae72643"
     },
     "claims.json": {
-      "bytes": 2204,
-      "sha256": "38b46ab070041384e018c26443d03cd773b7016a0cc68dc2e14ddb50e5a09038"
+      "bytes": 2494,
+      "sha256": "3264be51a7d2a9e07836743d53699ba5c2f37713a110974a33a3dc9726cb9005"
     },
     "data/benchmarks/PROVENANCE.json": {
       "bytes": 498,
@@ -254,12 +254,12 @@
       "sha256": "81b353b0cbe1180f5473382110af6792b977607c0c0a0c299e3da070076e4057"
     },
     "evidence/EVENT-MANIFEST.json": {
-      "bytes": 30164,
-      "sha256": "e5076904f926565122ca03b8cd1d420bf93b8ac7c286e04e4eb68a490dbfaa67"
+      "bytes": 29704,
+      "sha256": "b7825d21410b5ccbeda3104bddb75f37b185220bb17760ab03f23315b9ccc014"
     },
     "evidence/X0-MANIFEST.json": {
-      "bytes": 385,
-      "sha256": "08fc6ef05f7510d8477bdbc98caa8232f691cea12d04254868a339d57e27d9e5"
+      "bytes": 376,
+      "sha256": "c4040bb89d6f0fee00fb1522363ed0e9422d056ebbc57ce8c93420e72d0e185f"
     },
     "evidence/highs/COVERAGE.json": {
       "bytes": 1185,
